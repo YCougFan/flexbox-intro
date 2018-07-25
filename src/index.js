@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import './Flexbox.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import Flexbox from './Flexbox'
+
+ReactDOM.render(<Flexbox />, document.getElementById('root'));

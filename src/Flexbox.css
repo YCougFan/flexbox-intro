@@ -1,0 +1,31 @@
+/*places nav, div and aside in a flexbox*/
+.main {
+    display: flex;
+}
+
+/*places div before nav*/
+.content {
+    order: -1;
+}
+
+/*places all content of div in flexbox*/
+.example {
+    display: flex;
+    flex-direction: column;
+}
+
+/*places footer at top of the page*/
+footer {
+    order: -1;
+}
+
+/*centers all items in div class example*/
+.example {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
