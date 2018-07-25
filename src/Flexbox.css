@@ -1,6 +1,18 @@
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, aside, .content {
+    flex: 1;
+}
+
 /*places nav, div and aside in a flexbox*/
 .main {
     display: flex;
+    justify-content: space-between;
 }
 
 /*places div before nav*/
@@ -23,9 +35,4 @@ footer {
 .example {
     display: flex;
     align-items: center;
-}
-
-.main {
-    display: flex;
-    justify-content: space-between;
 }
